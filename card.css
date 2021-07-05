@@ -1,0 +1,37 @@
+body{
+   
+}
+.grid-container{
+    display:flex;
+    margin:0 auto;
+    grid-gap:0.25rem;
+}
+.card{
+    border:1px solid;
+    color: black;
+    width:7rem;
+    text-align:center;  
+    opacity: 0.5;
+    height: 10rem;
+    font-family: "Roboto Condensed","Helvetica Neue",Arial,sans-serif;
+    
+}
+
+.card:hover{
+    background-color:rgb(128,128,128);
+    opacity:0.5;
+}
+.card img {
+    padding:0rem 0rem 0rem 0rem;
+    color:white;
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+.card h4{
+   margin-top: 1rem;
+   font-size:16px ;
+   color:white;
+
+}
