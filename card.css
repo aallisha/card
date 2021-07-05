@@ -1,25 +1,26 @@
-body{
-   
-}
 .grid-container{
     display:flex;
     margin:0 auto;
     grid-gap:0.25rem;
 }
 .card{
+	margin-top:25px;
     border:1px solid;
     color: black;
-    width:7rem;
+    width:15rem;
     text-align:center;  
     opacity: 0.5;
     height: 10rem;
     font-family: "Roboto Condensed","Helvetica Neue",Arial,sans-serif;
+	z-index:-2rem;
     
 }
 
 .card:hover{
     background-color:rgb(128,128,128);
     opacity:0.5;
+	margin-top:5px;
+	 
 }
 .card img {
     padding:0rem 0rem 0rem 0rem;
